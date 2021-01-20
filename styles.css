@@ -19,6 +19,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100vh;
   font-size: 12px;
   background: linear-gradient(
@@ -49,11 +52,20 @@ body {
 
 .left-img {
   /* width: -50%; */
-  overflow: hidden;
   height: 800px;
   position: relative;
   transform: translate(-49%, -10%);
   /* left: -50%; */
+}
+
+.left-img-women {
+  position: absolute;
+  transform: translate(-18%, -175%);
+}
+
+.illustration-box {
+  position: absolute;
+  transform: translate(-363%, -50%);
 }
 
 #faq-container {
