@@ -37,7 +37,7 @@ body {
   align-items: center;
   background-color: #fff;
   padding-right: 2rem;
-  max-width: 1000px;
+  max-width: 820px;
   margin: auto;
   height: 80vh;
 }
@@ -54,18 +54,18 @@ body {
   /* width: -50%; */
   height: 800px;
   position: relative;
-  transform: translate(-49%, -10%);
+  transform: translate(-52%, -8%);
   /* left: -50%; */
 }
 
 .left-img-women {
   position: absolute;
-  transform: translate(-18%, -175%);
+  transform: translate(-18%, -170%);
 }
 
 .illustration-box {
   position: absolute;
-  transform: translate(-363%, -50%);
+  transform: translate(-295%, -40%);
 }
 
 #faq-container {
