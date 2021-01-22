@@ -76,7 +76,7 @@ body {
   align-self: flex-start;
 }
 
-#faq {
+.faq {
   max-width: 100%;
 }
 
@@ -278,7 +278,7 @@ hr {
     padding-top: 0.3rem;
   }
 
-  #faq {
+  .faq {
     padding-left: 1rem;
   }
 
