@@ -292,3 +292,12 @@ hr {
     height: 36vh;
   }
 }
+@media (min-width: 1200px) and (max-width: 1300px) {
+  #container {
+    height: 50vh;
+  }
+  .illustration-box {
+    position: absolute;
+    transform: translate(-283%, -40%);
+  }
+}
