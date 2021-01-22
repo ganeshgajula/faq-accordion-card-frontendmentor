@@ -72,6 +72,8 @@ body {
 
 #faq-container {
   width: 500px;
+  margin-top: 2rem;
+  align-self: flex-start;
 }
 
 #faq {
