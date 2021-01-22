@@ -82,6 +82,7 @@ body {
 
 #faq-container h1 {
   font-size: 2.1rem;
+  margin-bottom: 2rem;
 }
 
 #faq-container h4 {
@@ -225,7 +226,7 @@ hr {
   }
 }
 
-@media (min-width: 549px) and (max-width: 800px) {
+@media (min-width: 549px) and (max-width: 900px) {
   #img-container {
     display: none;
   }
@@ -241,15 +242,20 @@ hr {
     align-items: center;
     max-width: 450px;
     margin: auto;
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
     padding-right: 0;
-    height: 55vh;
+    height: 75vh;
   }
 
   #faq-container {
     max-width: 320px;
-    margin: 2rem auto;
+    margin: 5rem auto 2rem;
     padding-bottom: 2rem;
+  }
+
+  hr {
+    max-width: 310px;
+    margin: auto;
   }
 
   #faq-container h1 {
@@ -274,24 +280,25 @@ hr {
 
   #faq-container img {
     position: absolute;
-    right: 0rem;
+    right: -2rem;
     padding-top: 0.3rem;
   }
 
-  .faq {
+  /* .faq {
     padding-left: 1rem;
-  }
+  } */
 
   #faq-container h4 {
     font-size: 1.2rem;
   }
 }
 
-@media (min-width: 801px) and (max-width: 1200px) {
+@media (min-width: 901px) and (max-width: 1200px) {
   #container {
-    height: 36vh;
+    height: 75vh;
   }
 }
+
 @media (min-width: 1200px) and (max-width: 1300px) {
   #container {
     height: 50vh;
