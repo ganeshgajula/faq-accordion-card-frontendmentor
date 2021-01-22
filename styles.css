@@ -84,6 +84,7 @@ body {
 #faq-container h4 {
   display: inline;
   font-size: 0.9rem;
+  font-weight: normal;
 }
 
 #faq-container .question {
